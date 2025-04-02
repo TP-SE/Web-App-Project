@@ -1,0 +1,26 @@
+# Environment files
+.env
+*.env
+env.js
+
+# API keys
+*-key.pem
+*-key.json
+
+# Configuration files with secrets
+config/secrets.js
+config/*.secret.*
+
+# Dependency directories
+node_modules/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# System files
+.DS_Store
